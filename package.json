@@ -1,0 +1,26 @@
+{
+  "name": "sh-t-giggles",
+  "version": "1.0.0",
+  "description": "The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raumontalvo/sh-t-giggles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/raumontalvo/sh-t-giggles/issues"
+  },
+  "homepage": "https://github.com/raumontalvo/sh-t-giggles#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^3.4.3"
+  }
+}

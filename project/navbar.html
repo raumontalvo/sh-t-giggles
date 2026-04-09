@@ -1,0 +1,44 @@
+<!-- Shared Navbar Component for French Brand -->
+<nav class="fixed top-0 left-0 w-full bg-white shadow z-50" aria-label="Main navigation">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+    <div class="flex items-center gap-8">
+      <a href="index.html" class="text-2xl font-bold tracking-tight px-4 py-2 rounded hover:bg-blue-100 focus:bg-blue-200 transition" aria-label="Home">Home</a>
+      <div class="flex items-center gap-4 bg-gray-100 px-4 py-2 rounded shadow-sm">
+        <a href="catalog.html" class="text-base font-medium px-2 py-1 rounded hover:bg-blue-50 focus:bg-blue-100 transition">Catalog</a>
+        <a href="product.html" class="text-base font-medium px-2 py-1 rounded hover:bg-blue-50 focus:bg-blue-100 transition">Product</a>
+        <a href="cart.html" class="text-base font-medium px-2 py-1 rounded hover:bg-blue-50 focus:bg-blue-100 transition">Cart</a>
+        <a href="checkout.html" class="text-base font-medium px-2 py-1 rounded hover:bg-blue-50 focus:bg-blue-100 transition">Checkout</a>
+      </div>
+      <!-- Search Bar -->
+      <form class="ml-6 flex items-center" role="search" aria-label="Site search">
+        <input type="search" name="q" placeholder="Search..." class="border rounded-l px-3 py-1 w-32 md:w-48 focus:outline-none focus:ring-2 focus:ring-blue-300" aria-label="Search products">
+        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded-r hover:bg-blue-600 focus:bg-blue-700 transition" aria-label="Submit search">
+          <span class="sr-only">Search</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+        </button>
+      </form>
+    </div>
+    <div class="flex items-center space-x-4">
+      <!-- User Account Menu -->
+      <div class="relative group">
+        <button class="flex items-center px-3 py-1 rounded hover:bg-blue-100 focus:bg-blue-200 transition" aria-haspopup="true" aria-expanded="false">
+          <svg class="w-6 h-6 mr-1 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" /><path d="M6 20c0-2.2 3.6-4 6-4s6 1.8 6 4" /></svg>
+          <span class="hidden md:inline">Account</span>
+        </button>
+        <div class="absolute right-0 mt-2 w-40 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition pointer-events-none group-hover:pointer-events-auto z-50">
+          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Sign In</a>
+          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Register</a>
+          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Orders</a>
+          <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-blue-50">Account Settings</a>
+        </div>
+      </div>
+      <!-- Language Selector -->
+      <label for="lang" class="sr-only">Language</label>
+      <select id="lang" name="lang" class="border rounded px-2 py-1">
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+      </select>
+    </div>
+  </div>
+</nav>
+<div class="h-16"></div>
